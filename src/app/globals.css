@@ -1,14 +1,25 @@
 /* src/app/globals.css */
 :root {
-  --background: #ffffff;
+  
   --foreground: #171717;
-  --accent-color: #007bff; /* Añadir un color de acento */
+  --accent-color: #000000; /* Añadir un color de acento */
   --font-family: 'Arial', 'Helvetica', sans-serif;
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-acuarela-efecto-grunge_1340-4291.jpg?t=st=1740620605~exp=1740624205~hmac=c4b33dcb1c42d5301f3220d9b80c0af4089fbb1f2c5bf1a2d34facbf406e6c88&w=740');
+      background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+      background-position: center; /* Centra la imagen en el fondo */
+  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    
+      background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-acuarela-efecto-grunge_1340-4291.jpg?t=st=1740620605~exp=1740624205~hmac=c4b33dcb1c42d5301f3220d9b80c0af4089fbb1f2c5bf1a2d34facbf406e6c88&w=740');
+      background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+      background-position: center; /* Centra la imagen en el fondo */
+  
+  
     --foreground: #ededed;
   }
 }

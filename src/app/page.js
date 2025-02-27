@@ -6,6 +6,7 @@ import ResumenReserva from '../components/ResumenReserva';
 import SelectorDeporte from '../components/SelectorDeporte';
 import ReservaCancha from '../components/ReservaCancha';
 
+
 const deportesDisponibles = ['Fútbol', 'Baloncesto', 'Tenis'];
 
 const HomePage = () => {
