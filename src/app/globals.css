@@ -1,0 +1,88 @@
+/* src/app/globals.css */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --accent-color: #007bff; /* Añadir un color de acento */
+  --font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-family);
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Añadir subrayado al pasar el ratón */
+}
+
+button {
+  font-family: inherit; /* Usar la misma fuente del cuerpo */
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--background);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darken(var(--accent-color), 10%);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.container {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.column {
+  flex: 1;
+  padding: 15px;
+}
+
+.card {
+  background: var(--foreground);
+  color: var(--background);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h5 {
+  margin-bottom: 10px;
+}
