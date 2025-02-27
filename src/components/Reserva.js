@@ -1,6 +1,6 @@
 // src/components/Reserva.js
 import React, { useState } from 'react';
-import ResumenReserva from '../components/ResumenReserva';
+import ResumenReserva from './ResumenReserva';
 
 const Reserva = () => {
   const [reserva, setReserva] = useState({
